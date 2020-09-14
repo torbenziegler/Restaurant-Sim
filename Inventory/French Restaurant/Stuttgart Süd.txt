@@ -1,0 +1,30 @@
+water:4000
+noodles:5400
+eggs:1200
+spice:900
+oil:5500
+flour:1000
+tomatoes:4000
+ham:5000
+cheese:10000
+olives:1000
+mince:3000
+spinach:4500
+meatsoup:20000
+beef stock:3000
+roastbeef:5000
+onion:2500
+spaetzle:20000
+sugar:3500
+cream:5000
+red wine:1500
+broth:5000
+potato:7000
+lamb stock:6000
+whipped cream:2500
+lamb salmon:2000
+milk:2000
+toast:5000
+herbs:2000
+butter:2000
+baguette:3000

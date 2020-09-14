@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" stylesheets="Style.css" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdm_stuttgart.mi.se2.GUI.InventoryManagerController">
+    <MenuBar>
+        <Menu mnemonicParsing="false" text="Menu">
+            <items>
+                <MenuItem fx:id="switchLocation" mnemonicParsing="false" onAction="#switchLocationClicked"
+                          text="Switch Location"/>
+                <MenuItem fx:id="logOut" mnemonicParsing="false" onAction="#logOutClicked" text="Log Out"/>
+            </items>
+        </Menu>
+    </MenuBar>
+    <TableView fx:id="tableView" layoutY="23.0" prefHeight="330.0" prefWidth="600.0">
+        <columns>
+            <TableColumn fx:id="columnIngredient" prefWidth="222.0" text="Ingredient"/>
+            <TableColumn fx:id="columnAmount" prefWidth="66.0" text="Amount"/>
+        </columns>
+    </TableView>
+    <TextField fx:id="textFieldIngredient" layoutX="32.0" layoutY="361.0" promptText="Ingredient"/>
+    <TextField fx:id="textFieldAmount" layoutX="208.0" layoutY="361.0" promptText="Amount"/>
+    <Button fx:id="buttonAdd" layoutX="508.0" layoutY="361.0" mnemonicParsing="false" onAction="#buttonAddClicked"
+            prefHeight="25.0" prefWidth="78.0" text="Add"/>
+    <Button fx:id="buttonDelete" layoutX="407.0" layoutY="361.0" mnemonicParsing="false" onAction="#buttonDeleteClicked"
+            prefHeight="25.0" prefWidth="78.0" text="Delete"/>
+</AnchorPane>
