@@ -1,6 +1,6 @@
 # Restaurant Simulation
 
-During the second semester at the Hochschule der Medien, we were encouraged to work on a project together in a group. In our case it was a restaurant management app.
+During the second semester at the Stuttgart Media University, we were encouraged to work on a project together in a group. In our case it was a restaurant management app.
 
 If there is a lot going on in restaurants, it can happen that one of the customers placed orders cannot be prepared due to missing ingredients. We had the original idea to address this problem by developing an application that assists service staff in the ordering process by placing orders beforehand to make the ingredients comparable to the ones in stock. It also gives customers the opportunity to place their orders independently and gives managers the opportunity to view stocks and to fill them up if necessary.
 
